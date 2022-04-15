@@ -580,6 +580,7 @@ h1.tag {
 }
 
 .hero-image {
+  position: relative;
   z-index: 1;
 }
 
