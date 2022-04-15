@@ -29,13 +29,11 @@ $(document).on('scroll', function(){
 const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
-    const body = document.querySelector('body');
     const navLinks = document.querySelectorAll('.nav-links li');
     
     burger.addEventListener('click', ()=>{
         //toggle nav
         nav.classList.toggle('nav-active');
-        body.classList.toggle('fixed');
 
         //animate navLinks
         navLinks.forEach((link, index)=>{
