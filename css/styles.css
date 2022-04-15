@@ -44,6 +44,7 @@ nav {
   align-items: center;
   min-height: 8vh;
   background-color: var(--clr-neutral-100);
+  overflow-x: hidden;
 }
 
 .nav-links {

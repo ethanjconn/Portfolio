@@ -54,7 +54,7 @@ const navSlide = () => {
 
 const typedTextSpan = document.querySelector(".typed-text");
 
-const textArray = ["web developer.", "avid fantasy reader.", "gamer.", "gym lover."];
+const textArray = ["web developer.", "2", "avid fantasy reader.", "4", "gamer.", "6", "gym lover."];
 const typingDelay = 200;
 const erasingDelay = 100;
 const newTextDelay = 2000;
