@@ -814,8 +814,7 @@ img{
   color: var(--clr-neutral-900);
   text-align: center;
   position: absolute;
-  bottom: 0px;
-  left: 0;
+  left: 0px;
   transition: all 0.5s ease 0s;
 }
 
