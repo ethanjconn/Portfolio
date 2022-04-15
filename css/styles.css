@@ -16,10 +16,19 @@
   box-sizing: border-box;
 }
 
+html{
+  overflow-x: hidden;
+}
+
 body{
+  overflow-x: hidden;
+  width:100%;
   background-color: var(--clr-neutral-100);
   font-family: 'Oswald', sans-serif;
-  overflow-x: hidden;
+}
+
+.fixed{
+  position: fixed;
 }
 
 .logo{
@@ -861,6 +870,7 @@ img{
   
   .nav-active {
     transform: translateX(0%);
+    position: absolute;
   }
   
   .nav-links li{
