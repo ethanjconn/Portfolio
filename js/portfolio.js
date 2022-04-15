@@ -12,8 +12,14 @@ $(document).on('scroll', function(){
         $('.hero-2-outline').css("left", Math.max(-580 + 0.35 * window.scrollY) + "%");
     }
     else if(window.matchMedia("screen and (min-width: 768px)").matches){
-        $('.hero-1').css("left", Math.max(720 - 0.35 * window.scrollY) + "%");
-        $('.hero-1-outline').css("left", Math.max(720 - 0.35 * window.scrollY) + "%");
+        $('.hero-1').css("left", Math.max(730 - 0.35 * window.scrollY) + "%");
+        $('.hero-1-outline').css("left", Math.max(730 - 0.35 * window.scrollY) + "%");
+        $('.hero-2').css("left", Math.max(-560 + 0.35 * window.scrollY) + "%");
+        $('.hero-2-outline').css("left", Math.max(-560 + 0.35 * window.scrollY) + "%");
+    }
+    else if(window.matchMedia("screen and (max-width: 768px)").matches){
+        $('.hero-1').css("left", Math.max(730 - 0.35 * window.scrollY) + "%");
+        $('.hero-1-outline').css("left", Math.max(730 - 0.35 * window.scrollY) + "%");
         $('.hero-2').css("left", Math.max(-560 + 0.35 * window.scrollY) + "%");
         $('.hero-2-outline').css("left", Math.max(-560 + 0.35 * window.scrollY) + "%");
     }
