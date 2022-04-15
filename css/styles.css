@@ -870,7 +870,7 @@ img{
   
   .nav-active {
     transform: translateX(0%);
-    position: absolute;
+    /* position: absolute; */
   }
   
   .nav-links li{
