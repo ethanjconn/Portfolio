@@ -18,10 +18,10 @@ $(document).on('scroll', function(){
         $('.hero-2-outline').css("left", Math.max(-560 + 0.35 * window.scrollY) + "%");
     }
     else if(window.matchMedia("screen and (max-width: 768px)").matches){
-        $('.hero-1').css("left", Math.max(730 - 0.35 * window.scrollY) + "%");
-        $('.hero-1-outline').css("left", Math.max(730 - 0.35 * window.scrollY) + "%");
-        $('.hero-2').css("left", Math.max(-560 + 0.35 * window.scrollY) + "%");
-        $('.hero-2-outline').css("left", Math.max(-560 + 0.35 * window.scrollY) + "%");
+        $('.hero-1').css("left", Math.max(800 - 0.35 * window.scrollY) + "%");
+        $('.hero-1-outline').css("left", Math.max(800 - 0.35 * window.scrollY) + "%");
+        $('.hero-2').css("left", Math.max(-600 + 0.35 * window.scrollY) + "%");
+        $('.hero-2-outline').css("left", Math.max(-600 + 0.35 * window.scrollY) + "%");
     }
 });
 
@@ -52,10 +52,10 @@ const navSlide = () => {
 
 const typedTextSpan = document.querySelector(".typed-text");
 
-const textArray = ["web developer.", "2", "avid fantasy reader.", "4", "gamer.", "6", "gym lover."];
-const typingDelay = 200;
-const erasingDelay = 100;
-const newTextDelay = 2000;
+const textArray = ["web developer.", "UI designer.", "avid fantasy reader.", "agile team worker.", "gamer.", "perfectionist.", "gym lover."];
+const typingDelay = 150;
+const erasingDelay = 150;
+const newTextDelay = 300;
 let textArrayIndex = 0;
 let charIndex = 0;
 
