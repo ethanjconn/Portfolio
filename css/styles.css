@@ -229,6 +229,14 @@ nav {
   padding-top: 15px;
 }
 
+.fade-in{
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
 .our-team {
   padding: 30px 0 40px;
   margin-bottom: 0px;
@@ -335,6 +343,24 @@ nav {
 
 /* tag section starts here */
 
+.tag-container{
+  overflow:hidden;
+}
+
+.from-bottom {
+  transform: translateY(50%);
+}
+
+.from-bottom {
+  transition: transform 400ms ease-in, opacity 1000ms ease-in;
+  opacity:0;
+}
+
+.from-bottom.appear {
+  transform: translateY(0%);
+  opacity: 1;
+}
+
 .skill-tags{
   background: var(--clr-neutral-100);
   color: var(--text-color);
@@ -345,6 +371,7 @@ nav {
   display: flex;
   min-height: 250px;
   flex-direction: column;
+  overflow:hidden;
 }
 
 .skill-tags h1 {
